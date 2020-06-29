@@ -33,7 +33,7 @@ const movies = [
 ];
 const template = movies.map(movie => `
   <li>
-    <p id="title">${movie.name} (${movie.year})</p>
+    <p><span id="title">${movie.name}</span> <span id="year">(${movie.year})</span></p>
     <p id="director">Directed by: ${movie.director}</p>
     <img src="${movie.picture}" width=150>
   </li>
